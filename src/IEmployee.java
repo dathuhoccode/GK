@@ -1,8 +1,8 @@
 public interface IEmployee {
-    public String showInfo();
+    public void showInfo();
 }
 class Employee implements IEmployee {
-    public String showInfo() {
+    public void showInfo() {
 
     }
 }
