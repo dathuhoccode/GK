@@ -10,10 +10,8 @@ public class Fresher extends employee {
         this.Education = education;
     }
     @Override
-    public void showInfo() {
+    public String showInfo() {
         super.showInfo();
-        System.out.println("Graduation Date: " + Graduation_date);
-        System.out.println("Graduation Rank: " + Graduation_rank);
-        System.out.println("Education: " + Education);
+        return ("Graduation Date: " + Graduation_date + "Graduation Rank: " + Graduation_rank +"Education: " + Education);
     }
 }

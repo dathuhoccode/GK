@@ -9,10 +9,8 @@ public class Intern extends employee{
         University_name = universityName;
     }
     @Override
-    public void showInfo() {
+    public String showInfo() {
         super.showInfo();
-        System.out.println("Experience In Year: " + Majors);
-        System.out.println("Professional Skill: " + Semester);
-        System.out.println("Professional Skill: " + University_name);
+        return ("Experience In Year: " + Majors +"Professional Skill: " + Semester+ "Professional Skill: " + University_name);
     }
 }

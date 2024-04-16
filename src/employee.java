@@ -16,12 +16,7 @@ public class employee implements IEmployee{
         Employee_Count++;
     }
     @Override
-    public void showInfo() {
-        System.out.println("ID: " + ID);
-        System.out.println("Full Name: " + Name);
-        System.out.println("BirthDay: " + BirthDay);
-        System.out.println("Phone: " + Phone);
-        System.out.println("Email: " + Email);
-        System.out.println("Employee Type: " + Employee_Type);
+    public String showInfo() {
+        return ("ID: " + ID + "Full Name: " + Name +"BirthDay: " + BirthDay +"Phone: " + Phone + "Email: " + Email+ "Employee Type: " + Employee_Type);
     }
 }

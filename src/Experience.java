@@ -10,9 +10,8 @@ public class Experience extends employee {
     }
 
     @Override
-    public void showInfo() {
+    public String showInfo() {
         super.showInfo();
-        System.out.println("Experience In Year: " + expInYear);
-        System.out.println("Professional Skill: " + proSkill);
+        return ("Experience In Year: " + expInYear + "Professional Skill: " + proSkill);
     }
 }

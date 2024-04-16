@@ -1,3 +1,3 @@
 public interface IEmployee {
-    void showInfo();
+    String showInfo();
 }
