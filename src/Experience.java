@@ -1,6 +1,6 @@
 public class Experience extends employee {
-    private int expInYear;
-    private String proSkill;
+    private final int expInYear;
+    private final String proSkill;
 
     public Experience(String id, String fullName, String birthDay, String phone, String email, String employeeType,
                       int expInYear, String proSkill) {

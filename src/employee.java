@@ -1,10 +1,10 @@
 public class employee implements IEmployee{
-    private String ID;
-    private String Name;
-    private String BirthDay;
-    private String Phone;
-    private String Email;
-    private String Employee_Type;
+    private final String ID;
+    private final String Name;
+    private final String BirthDay;
+    private final String Phone;
+    private final String Email;
+    private final String Employee_Type;
     private int Employee_Count;
     public employee(String ID, String Name, String BirthDay, String Phone, String Email, String Employee_Type) {
         this.ID = ID;
