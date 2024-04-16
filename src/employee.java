@@ -6,7 +6,7 @@ public class employee implements IEmployee{
     private String Email;
     private String Employee_Type;
     private int Employee_Count;
-    public employee(String ID, String Name, String BirthDay, String Phone, String Email, String Employee_Type, int Employee_Count) {
+    public employee(String ID, String Name, String BirthDay, String Phone, String Email, String Employee_Type) {
         this.ID = ID;
         this.Name = Name;
         this.BirthDay = BirthDay;
