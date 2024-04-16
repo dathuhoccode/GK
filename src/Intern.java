@@ -10,7 +10,6 @@ public class Intern extends employee{
     }
     @Override
     public String showInfo() {
-        super.showInfo();
-        return ("Experience In Year: " + Majors +"Professional Skill: " + Semester+ "Professional Skill: " + University_name);
+        return ( super.showInfo()+"," +Majors +","+ Semester+ "," + University_name);
     }
 }

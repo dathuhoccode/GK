@@ -17,6 +17,6 @@ public class employee implements IEmployee{
     }
     @Override
     public String showInfo() {
-        return ("ID: " + ID + "Full Name: " + Name +"BirthDay: " + BirthDay +"Phone: " + Phone + "Email: " + Email+ "Employee Type: " + Employee_Type);
+        return ( ID + "," + Name +"," + BirthDay +"," + Phone + "," + Email+ "," + Employee_Type);
     }
 }

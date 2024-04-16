@@ -11,7 +11,7 @@ public class Fresher extends employee {
     }
     @Override
     public String showInfo() {
-        super.showInfo();
-        return ("Graduation Date: " + Graduation_date + "Graduation Rank: " + Graduation_rank +"Education: " + Education);
+
+        return (super.showInfo() + Graduation_date + "," + Graduation_rank +"," + Education);
     }
 }

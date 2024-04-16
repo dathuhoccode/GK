@@ -11,7 +11,7 @@ public class Experience extends employee {
 
     @Override
     public String showInfo() {
-        super.showInfo();
-        return ("Experience In Year: " + expInYear + "Professional Skill: " + proSkill);
+
+        return (super.showInfo() +","+ expInYear + "," + proSkill);
     }
 }
