@@ -1,10 +1,6 @@
 
-public class Main implements IEmployee{
+public class Main{
     public static void main(String[] args) {
 
 }
-@Override
-    public void showInfo() {
-
-    }
 }
